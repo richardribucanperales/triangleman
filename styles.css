@@ -1,0 +1,52 @@
+*{
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+}
+#header{
+  text-align:center;
+  width:100%;
+  height:125px;
+  background-color:pink;
+}
+.headertitle{
+  font-size:70px;
+  margin:0px;
+}
+.headertext{
+  font-size:35px;
+  margin:0px;
+  font-style:italic;
+}
+#body{
+  text-align:center;
+}
+.bodytitle{
+  font-size:30px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+#input{
+  width:400px;
+  height:20px;
+}
+#outputbox{
+  height:50px;
+  width:200px;
+  border:1px solid black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#output{
+  position:relative;
+  top:25%;
+}
+#outputbutton{
+  height:20px;
+  width:200px;
+  background-color:pink;
+  border:0px;
+}
+#outputbutton:hover{
+  background-color:#80005b;
+}
