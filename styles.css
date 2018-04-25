@@ -63,3 +63,13 @@
 .buttons:hover{
   background-color:#80005b;
 }
+#overflow1{
+  height:200px;
+  overflow:scroll;
+  width:50%;
+}
+#massoutput{
+  height:200px;
+  overflow:scroll;
+  width:50%;
+}
