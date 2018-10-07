@@ -1,5 +1,13 @@
 console.log("main module loaded")
 
+var input = document.getElementById("input");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("outputbutton").click();
+    }
+});
+
 function fortuneGiver(){	
 	var input = document.getElementById("input").value;
 	
